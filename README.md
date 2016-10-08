@@ -5,9 +5,9 @@ Simple mutex implementation interview question
 Implement a simple [spinlock](https://en.wikipedia.org/wiki/Spinlock) based on Go [sync/atomic](https://golang.org/pkg/sync/atomic) primatives.
 
 ```Go
-  var m Mutex
-  m.Lock()
-  m.Unlock()
+var m Mutex
+m.Lock()
+m.Unlock()
 ```
 ### Extra credit
 * [Read-write Mutex](https://golang.org/pkg/sync/#RWMutex)
